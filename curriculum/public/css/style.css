@@ -244,7 +244,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #6ad0ce;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {padding: 100px 0 100px;}
 .about-content {padding-top: 100px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -371,7 +371,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         6.  Skills
 --------------------------------------*/
 .skills {
-    
+    padding-top: 60px;
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -379,8 +379,10 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    padding: 50px 0;
     border-bottom: 1px solid #e5ebf2;
+    color: #60b6b4;
+    margin: 0;
 }
 .single-progress-txt {
     display: flex;
@@ -440,7 +442,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
+    padding: 100px 0 100px;
     border-top: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 100px;}
@@ -691,7 +693,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
-    padding: 50px 0 100px;
+    padding: 100px 0 100px;
 }
 .single-contact-box {padding-top: 100px;}
 .contact-form  .form-group {

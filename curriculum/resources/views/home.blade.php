@@ -9,7 +9,7 @@
 				<div class="row">
 					<div class="col-md-12 text-center">
 						<div class="header-text">
-							<h2>Bonjour <span>,</span> je m'appelle <br> Camille <br> Breau <span>.</span>   </h2>
+							<h2>Bonjour <span>, <br></span> je m'appelle  Camille Breau <span>.</span>   </h2>
 							<p> Développeuse full-stack. </p>
 							<a href="download/browney.txt" download>Telecharger mon CV</a>
 						</div><!--/.header-text-->
