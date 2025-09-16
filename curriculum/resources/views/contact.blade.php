@@ -5,7 +5,7 @@
 	<!--contact start -->
         <section id="contact" class="contact">
 			<div class="section-heading text-center">
-				<h2>contact me</h2>
+				<h2>Me contacter</h2>
 			</div>
 			<div class="container">
 				<div class="contact-content">
@@ -25,20 +25,21 @@
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
 												  <label for="name" hidden>Name</label>
-												  <input type="text" class="form-control" id="name" placeholder="Nom*" name="name" data-sb-validations="required">
+												  <input type="text" class="form-control" id="name" placeholder="Nom*" name="name" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 											<div class="col-sm-6 col-xs-12">
 												<div class="form-group">
-												<label for="email" hidden>Email address</label>
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email" data-sb-validations="required,email">
+													<label for="email" hidden>Email address</label>
+													<input type="email" class="form-control" id="email" placeholder="Email*" name="email" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
 										<div class="row">
 											<div class="col-sm-12">
 												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Sujet" name="subject">
+													<label for="subject" hidden>Sujet</label>
+													<input type="text" class="form-control" id="subject" placeholder="Sujet" name="subject" required>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
@@ -46,7 +47,7 @@
 											<div class="col-sm-12">
 												<div class="form-group">
 													<label for="message" hidden>Message</label>
-													<textarea class="form-control" name="message" rows="8" id="comment" placeholder="Message"  data-sb-validations="required" ></textarea>
+													<textarea class="form-control" name="message" rows="8" id="comment" placeholder="Message"></textarea>
 												</div><!--/.form-group-->
 											</div><!--/.col-->
 										</div><!--/.row-->
