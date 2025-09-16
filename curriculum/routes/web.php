@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CurriculumController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [CurriculumController::class, 'index']);
+Route::get('/home', [CurriculumController::class, 'index']);
+Route::get('/competence', [CurriculumController::class, 'competence']);
+Route::get('/parcours', [CurriculumController::class, 'parcours']);
+Route::get('/formation', [CurriculumController::class, 'formation']);
+Route::get('/contact', [CurriculumController::class, 'contact']);
+Route::post('/contact', [CurriculumController::class, 'contactForm']);
+Route::get('/profil', [CurriculumController::class, 'profil']);
